@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .titolo {
   text-align: center;
@@ -23,6 +24,7 @@
   background-position: center;
   background-image: url(../img/roma.jpg);
   margin: 1% 35%;
+
 }
 .roma {
   position: absolute;
@@ -72,6 +74,7 @@
   font-size: 50px;
   color: white;
   text-shadow: 2px 1px rgb(180, 229, 242);
+
 }
 
 .layover {
@@ -83,6 +86,7 @@
 
 .background1:hover .layover {
   display: none;
+  cursor: pointer;
 }
 .background2:hover .layover {
   display: none;
@@ -96,4 +100,45 @@
   font-size: 30px;
   background-color: rgb(232, 121, 121);
   border-radius: 10px;
+  width: 200px;
+  display: inline-block;
+  margin: 10px;
+  padding: 1%;
+  transform: translate(299%, -0%);
+}
+
+.airbnb:hover {
+  background-color: rgb(268, 170, 170);
+  cursor: pointer;
+}
+
+.menu {
+  height: 60px;
+  width: 200px;
+  position: absolute;
+  display: inline-block;
+  transform: translate(240%, -655%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  margin: 30px;
+  text-align: center;
+  padding: 8px;
+}
+
+
+.menu:hover {
+  background-color: rgb(222, 121, 121);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.lorem {
+  font-size: 20px;
+  font-family: monospace;
+  text-align: justify;
+  margin: 10px 10px;
+  padding: 1%;
+  position: relative;
+  display: inline-block;
 }
