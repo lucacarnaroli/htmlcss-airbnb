@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.titolo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+
+}
+.section1 {
+  width: 100px;
+  padding: 100%;
+  margin: auto;
+}
+.background1 {
+  height: 30vh;
+  width: 30%;
+  margin: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/roma.jpg);
+  margin: 1% 35%;
+}
+.roma {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 1px rgb(180, 229, 242);
+}
+.background2 {
+  height: 30vh;
+  width: 30%;
+  margin: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/paris.jpg);
+  margin: 1% 35%;
+}
+.parigi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 1px rgb(180, 229, 242);
+}
+
+.background3 {
+  height: 30vh;
+  width: 30%;
+  margin: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/berlino.jpg);
+  margin: 1% 35%;
+
+}
+.berlino {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 1px rgb(180, 229, 242);
+}
+
+.layover {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.background1:hover .layover {
+  display: none;
+}
+.background2:hover .layover {
+  display: none;
+}
+.background3:hover .layover {
+  display: none;
+}
+
+.airbnb {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(232, 121, 121);
+  border-radius: 10px;
+}
